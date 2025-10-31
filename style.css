@@ -5,6 +5,10 @@
     box-shadow:1px 1px 3rem rgba(0,0,1,1);
     background-color:burlywood;
     color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
 }
 body{
     background-color: yellowgreen;
@@ -13,4 +17,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+button{
+    height: 2rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+.con-text{
+    height: 20px;
 }
