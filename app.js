@@ -13,7 +13,7 @@ arr.forEach(btn=>{
        }
        else if(value== "="){
         str=eval(str);
-        str="="+" " +str;
+        str=str;
        }
        else{
         str+=value;
